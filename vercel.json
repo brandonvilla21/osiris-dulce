@@ -1,0 +1,12 @@
+{
+  "redirects":[
+     {
+        "source":"/assets/assets/fonts/:filePath",
+        "destination":"/assets/fonts/:filePath"
+     },
+     {
+        "source":"/assets/assets/pictures/:filePath",
+        "destination":"/assets/pictures/:filePath"
+     }
+  ]
+}

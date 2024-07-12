@@ -1,0 +1,59 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background-image: url('./assets/pictures/osiris/married-couple.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* This creates the overlay effect */
+}
+
+.logo {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 150px;
+  height: 150px;
+  background-color: #F9F5F0;
+  border-radius: 50%;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+}
+
+.title {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  color: #F6DFD8;
+  width: 98%;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.subtitle {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.7rem;
+  text-align: center;
+  color: #F6DFD8;
+  font-family: 'Safira March';
+  width: 80%;
+  text-align: center;
+}
