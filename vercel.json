@@ -5,8 +5,8 @@
         "destination":"/assets/fonts/:filePath"
      },
      {
-        "source":"/assets/assets/pictures/:filePath",
-        "destination":"/assets/pictures/:filePath"
+        "source":"/assets/assets/pictures/osiris/:filePath",
+        "destination":"/assets/pictures/osiris/:filePath"
      }
   ]
 }
