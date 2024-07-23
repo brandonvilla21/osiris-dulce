@@ -35,58 +35,7 @@ const Confirmation = () => {
         justifyContent="center"
         alignItems="center"
       >
-        <Typography variant="h5" textAlign="center">
-          PASES
-        </Typography>
-        <img
-          src="./assets/icons/ticket.png"
-          alt="Wedding tickets"
-          style={{
-            height: "70px",
-            width: "70px",
-          }}
-        />
-        <Typography variant="body1" fontFamily="JakartaSans">
-          Para ti, {hashInvites[invites] || 0} pase{hashInvites[invites] > 1 ? 's' : ''}.
-        </Typography>
-      </Grid>
-      <Grid
-        item
-        display="flex"
-        flexDirection="column"
-        justifyContent="center"
-        alignItems="center"
-        py={5}
-      >
-        <Typography variant="h5" textAlign="center">
-          DRESSCODE
-        </Typography>
-        <img
-          src="./assets/icons/clothes.png"
-          alt="Notebook"
-          style={{
-            height: "70px",
-            width: "70px",
-          }}
-        />
-        <Typography
-          variant="body1"
-          fontFamily="JakartaSans"
-          textAlign="center"
-          pt={1}
-          px={2}
-        >
-          Formal • No niños
-        </Typography>
-      </Grid>
-      <Grid
-        item
-        display="flex"
-        flexDirection="column"
-        justifyContent="center"
-        alignItems="center"
-      >
-        <Typography variant="h5" textAlign="center">
+        <Typography variant="h5" textAlign="center" fontWeight="bold">
           REGALOS
         </Typography>
         <img
@@ -105,41 +54,10 @@ const Confirmation = () => {
           px={2}
           sx={{ maxWidth: "400px" }}
         >
-          Tu presencia es nuestro mayor regalo. Pero si deseas tener algún
-          detalle con nosotros, nos encantaría tu apoyo para nuestra luna de
-          miel.
+          Ya tenemos pensado el Ferrari, la mansión y el velero. Ahora lo único
+          que nos falta es ¡el dinero!
         </Typography>
-
-        <Box
-          sx={{
-            margin: "1.2rem 0",
-            border: "1px solid black",
-            padding: "5px",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            width: "250px",
-          }}
-        >
-          <img
-            src="./assets/icons/envelope.png"
-            alt="Notebook"
-            style={{
-              height: "50px",
-              width: "50px",
-            }}
-          />
-          <Typography variant="body1" textAlign="center">
-            Opcionalmente puedes tomar un sobre el día del evento
-          </Typography>
-        </Box>
       </Grid>
-
-      <Grid item width="90%" pb={3}>
-        <Divider />
-      </Grid>
-
       <Grid
         item
         display="flex"
@@ -148,7 +66,7 @@ const Confirmation = () => {
         alignItems="center"
         py={8}
       >
-        <Typography variant="h4" textAlign="center" fontWeight="bold">
+        <Typography variant="h5" textAlign="center" fontWeight="bold">
           CONFIRMAR
           <br /> ASITENCIA
         </Typography>
@@ -161,8 +79,7 @@ const Confirmation = () => {
           px={2}
           pb={2}
         >
-          Por favor, confirma tu asistencia a más tardar el 1 de Febrero del
-          2024
+          Por favor, confirma tu asistencia. ¡Esperemos que estes ahí!
         </Typography>
         <Box m={1} minWidth={300}>
           <Button
@@ -201,7 +118,19 @@ const Confirmation = () => {
         </Box>
       </Grid>
 
-      <Grid
+      <Grid item xs={12} sx={{ pt: 0, pb: 0, textAlign: 'center' }}>
+        <img
+          style={{ maxWidth: "75%" }}
+          src="/assets/icons/osiris/te-esperamos.png"
+        />
+      </Grid>
+      <Grid item xs={12} sx={{ pt: 0, pb: 3, textAlign: 'center' }}>
+        <img
+          style={{ maxWidth: "50%" }}
+          src="/assets/icons/osiris/osiris-y-dulce-blanco.png"
+        />
+      </Grid>
+      {/* <Grid
         item
         display="flex"
         flexDirection="column"
@@ -224,7 +153,7 @@ const Confirmation = () => {
             width: "350px",
           }}
         />
-      </Grid>
+      </Grid> */}
     </Grid>
   );
 };

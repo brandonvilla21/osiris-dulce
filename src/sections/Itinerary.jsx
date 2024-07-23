@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Button, Grid, Typography } from "@mui/material";
+import { Box, Button, Grid, Typography } from "@mui/material";
 
 const Item = (props) => {
   return (
@@ -94,7 +94,7 @@ const Itinerary = () => {
             width: "100px",
           }}
         />
-        <Typography variant="h5">
+        <Typography variant="h5" fontWeight="bold">
           CEREMONIA <br />& CELEBRACIÓN
         </Typography>
         <Typography
@@ -128,10 +128,81 @@ const Itinerary = () => {
           </Grid>
         </Grid>
         <Grid item xs={12}>
-          <Button variant="contained">Ver Ubicación</Button>
+          <Button
+            variant="contained"
+            sx={{
+              bgcolor: "#AEC3AE",
+              fontWeight: 'bold',
+              '&:hover': {
+                bgcolor: "#AEC3AE",
+                fontWeight: 'bold',
+              }
+            }}
+          >
+            Ver Ubicación
+          </Button>
         </Grid>
       </Grid>
       <Grid
+        item
+        display="flex"
+        flexDirection="column"
+        justifyContent="center"
+        alignItems="center"
+        pt={10}
+        pb={5}
+      >
+        <img
+          src="./assets/icons/clothes.png"
+          alt="Notebook"
+          style={{
+            height: "70px",
+            width: "70px",
+          }}
+        />
+        <Typography variant="h5" textAlign="center" fontWeight="bold">
+          DRESS CODE
+        </Typography>
+        <Typography
+          variant="body1"
+          fontFamily="JakartaSans"
+          textAlign="center"
+          pt={1}
+          px={2}
+        >
+          Riguroso Formal
+        </Typography>
+      </Grid>
+      <Grid item xs={12} bgcolor="#AEC3AE" width={"100%"} py={6}>
+        <Box
+          display="flex"
+          flexDirection="column"
+          justifyContent="center"
+          alignItems="center"
+        >
+          <img
+            src="/assets/icons/osiris/camera.gif"
+            style={{ maxWidth: "100px" }}
+          />
+          <Typography variant="h6" color="white" fontWeight="bold">
+            COMPARTE FOTOS
+          </Typography>
+          <Typography variant="body1" pb={2} color="white">
+            ¡Sube fotos de la boda al álbum!
+          </Typography>
+          <Button
+            variant="outlined"
+            sx={{
+              color: "white",
+              borderColor: "white",
+              "&:hover": { borderColor: "white" },
+            }}
+          >
+            SUBIR FOTO
+          </Button>
+        </Box>
+      </Grid>
+      {/* <Grid
         item
         display="flex"
         flexDirection="column"
@@ -164,7 +235,7 @@ const Itinerary = () => {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
-      </Grid>
+      </Grid> */}
     </Grid>
   );
 };

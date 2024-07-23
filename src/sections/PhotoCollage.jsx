@@ -4,21 +4,11 @@ const vertical = { height: 1386, width: 924 };
 const horizontal = { height: 924, width: 1386 };
 
 const photos = [
-  { src: "/assets/pictures/1-min.jpeg", ...vertical },
-  { src: "/assets/pictures/2-min.jpeg", ...vertical },
-  { src: "/assets/pictures/3-min.jpeg", ...horizontal },
-  { src: "/assets/pictures/4-min.jpeg", ...horizontal },
-  { src: "/assets/pictures/5-min.jpeg", ...horizontal },
-  { src: "/assets/pictures/6-min.jpeg", ...vertical },
-  { src: "/assets/pictures/7-min.jpeg", ...vertical },
-  { src: "/assets/pictures/8-min.jpeg", ...horizontal },
-  { src: "/assets/pictures/9-min.jpeg", ...horizontal },
-  { src: "/assets/pictures/10-min.jpeg", ...vertical },
-  { src: "/assets/pictures/11-min.jpeg", ...horizontal },
-  { src: "/assets/pictures/12-min.jpeg", ...horizontal },
-  { src: "/assets/pictures/13-min.jpeg", ...horizontal },
-  { src: "/assets/pictures/14-min.jpeg", ...horizontal },
-  { src: "/assets/pictures/15-min.jpeg", ...horizontal },
+  { src: "/assets/pictures/osiris/proposal.jpg", ...vertical },
+  { src: "/assets/pictures/osiris/h-1.jpg", ...horizontal },
+  { src: "/assets/pictures/osiris/h-3.jpg", ...horizontal },
+  { src: "/assets/pictures/osiris/v-1.jpg", ...vertical },
+  { src: "/assets/pictures/osiris/h-2.jpg", ...horizontal },
 ];
 
 const PhotoCollage = () => {
