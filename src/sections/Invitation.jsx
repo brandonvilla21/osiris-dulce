@@ -20,7 +20,7 @@ const CalendarItem = (props) => {
           width: lgSize ? "75px" : "45px",
           height: lgSize ? "75px" : "45px",
           borderRadius: "50%",
-          backgroundColor: "#AEC3AE",
+          backgroundColor: "#5A6548",
           color: "white",
           display: "flex",
           justifyContent: "center",

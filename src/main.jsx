@@ -8,7 +8,9 @@ const { augmentColor } = palette;
 const createColor = (mainColor) => augmentColor({ color: { main: mainColor } });
 const theme = createTheme({
   palette: {
-    formal: createColor("#232b2b"),
+    primary: {
+      main: '#5A6548',
+    },
   },
 });
 

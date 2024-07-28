@@ -1,10 +1,16 @@
 .container {
+  background-image: url('./assets/pictures/osiris/proposal.jpg');
   position: relative;
   width: 100%;
   height: 60vh;
-  background-image: url('./assets/pictures/osiris/married-couple.jpeg');
   background-size: cover;
   background-position: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    height: 100vh;
+  }
 }
 
 .container::before {
@@ -15,7 +21,6 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  /* This creates the overlay effect */
 }
 
 .logo {

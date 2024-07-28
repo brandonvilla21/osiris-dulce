@@ -95,7 +95,7 @@ const Itinerary = () => {
           }}
         />
         <Typography variant="h5" fontWeight="bold">
-          CEREMONIA <br />& CELEBRACIÓN
+          RECEPCIÓN <br />& CEREMONIA
         </Typography>
         <Typography
           variant="body1"
@@ -122,21 +122,26 @@ const Itinerary = () => {
             </Grid>
             <Grid item xs={5} display="flex" justifyContent="flex-start">
               <Typography variant="h5" fontFamily="JakartaSans">
-                09:00 pm
+                04:30 pm
               </Typography>
             </Grid>
           </Grid>
         </Grid>
         <Grid item xs={12}>
           <Button
+            LinkComponent="a"
+            href="https://maps.app.goo.gl/zSLYuQohRjsfKHF77"
+            target="_blank"
+            rel="noopener noreferrer"
             variant="contained"
             sx={{
-              bgcolor: "#AEC3AE",
-              fontWeight: 'bold',
-              '&:hover': {
-                bgcolor: "#AEC3AE",
-                fontWeight: 'bold',
-              }
+              bgcolor: "#5A6548",
+              fontWeight: "bold",
+              "&:hover": {
+                bgcolor: "#5A6548",
+                fontWeight: "bold",
+                color: "white",
+              },
             }}
           >
             Ver Ubicación
@@ -158,6 +163,7 @@ const Itinerary = () => {
           style={{
             height: "70px",
             width: "70px",
+            paddingBottom: "10px",
           }}
         />
         <Typography variant="h5" textAlign="center" fontWeight="bold">
@@ -170,10 +176,10 @@ const Itinerary = () => {
           pt={1}
           px={2}
         >
-          Riguroso Formal
+          Riguroso Formal • No niños
         </Typography>
       </Grid>
-      <Grid item xs={12} bgcolor="#AEC3AE" width={"100%"} py={6}>
+      <Grid item xs={12} bgcolor="#5A6548" width={"100%"} py={6}>
         <Box
           display="flex"
           flexDirection="column"

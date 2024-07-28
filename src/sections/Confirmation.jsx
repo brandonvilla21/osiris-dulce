@@ -1,5 +1,6 @@
 import { Box, Button, Divider, Grid, Typography } from "@mui/material";
 import { useQuery } from "../hooks/use-query";
+import FormConfirmation from "./FormConfirmation";
 
 const hashInvites = {
   42661: 1,
@@ -35,7 +36,7 @@ const Confirmation = () => {
         justifyContent="center"
         alignItems="center"
       >
-        <Typography variant="h5" textAlign="center" fontWeight="bold">
+        <Typography variant="h5" textAlign="center" fontWeight="bold" pb={1}>
           REGALOS
         </Typography>
         <img
@@ -64,6 +65,94 @@ const Confirmation = () => {
         flexDirection="column"
         justifyContent="center"
         alignItems="center"
+        pt={5}
+      >
+        <img
+          src="./assets/icons/hotel-icon.png"
+          alt="Notebook"
+          style={{
+            height: "70px",
+            width: "70px",
+          }}
+        />
+        <Typography variant="h5" textAlign="center" fontWeight="bold" pb={1}>
+          OPCIONES <br /> DE HOSPEDAJE
+        </Typography>
+        <Typography
+          variant="body1"
+          fontFamily="JakartaSans"
+          textAlign="center"
+          pt={1}
+          px={2}
+          sx={{ maxWidth: "400px" }}
+        >
+          <a
+            href="https://maps.app.goo.gl/FU5XPsMWWwcpfS7i6"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#5A6548", textDecoration: "underline" }}
+          >
+            Hotel Tlayolan
+          </a>
+        </Typography>
+        <Typography
+          variant="body1"
+          fontFamily="JakartaSans"
+          textAlign="center"
+          pt={1}
+          px={2}
+          sx={{ maxWidth: "400px" }}
+        >
+          <a
+            href="https://maps.app.goo.gl/wWnqDnCfwYQQMyES9"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#5A6548", textDecoration: "underline" }}
+          >
+            Hotel Zapotlán
+          </a>
+        </Typography>
+        <Typography
+          variant="body1"
+          fontFamily="JakartaSans"
+          textAlign="center"
+          pt={1}
+          px={2}
+          sx={{ maxWidth: "400px" }}
+        >
+          <a
+            href="https://maps.app.goo.gl/upqMcyGstgPdz4GK8"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#5A6548", textDecoration: "underline" }}
+          >
+            Posada San José
+          </a>
+        </Typography>
+        <Typography
+          variant="body1"
+          fontFamily="JakartaSans"
+          textAlign="center"
+          pt={1}
+          px={2}
+          sx={{ maxWidth: "400px" }}
+        >
+          <a
+            href="https://maps.app.goo.gl/Yi9XiispjTeJFEEh7"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#5A6548", textDecoration: "underline" }}
+          >
+            Hotel Fuerte Real
+          </a>
+        </Typography>
+      </Grid>
+      <Grid
+        item
+        display="flex"
+        flexDirection="column"
+        justifyContent="center"
+        alignItems="center"
         py={8}
       >
         <Typography variant="h5" textAlign="center" fontWeight="bold">
@@ -81,7 +170,8 @@ const Confirmation = () => {
         >
           Por favor, confirma tu asistencia. ¡Esperemos que estes ahí!
         </Typography>
-        <Box m={1} minWidth={300}>
+        <FormConfirmation />
+        {/* <Box m={1} minWidth={300}>
           <Button
             fullWidth
             href={"https://wa.me/+523327988685" + confirmationText}
@@ -115,16 +205,16 @@ const Confirmation = () => {
           >
             Confirmar con Sara
           </Button>
-        </Box>
+        </Box> */}
       </Grid>
 
-      <Grid item xs={12} sx={{ pt: 0, pb: 0, textAlign: 'center' }}>
+      <Grid item xs={12} sx={{ pt: 0, pb: 0, textAlign: "center" }}>
         <img
           style={{ maxWidth: "75%" }}
           src="/assets/icons/osiris/te-esperamos.png"
         />
       </Grid>
-      <Grid item xs={12} sx={{ pt: 0, pb: 3, textAlign: 'center' }}>
+      <Grid item xs={12} sx={{ pt: 0, pb: 3, textAlign: "center" }}>
         <img
           style={{ maxWidth: "50%" }}
           src="/assets/icons/osiris/osiris-y-dulce-blanco.png"
