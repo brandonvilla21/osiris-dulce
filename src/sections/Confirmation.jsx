@@ -57,6 +57,9 @@ const Confirmation = () => {
         >
           Ya tenemos pensado el Ferrari, la mansión y el velero. Ahora lo único
           que nos falta es ¡el dinero!
+          <br />
+          Contaremos con un buzón en la boda en el que podrán depositar un sobre
+          con su regalo en efectivo
         </Typography>
       </Grid>
       <Grid

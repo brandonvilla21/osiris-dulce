@@ -19,7 +19,7 @@ const Welcome = () => {
           pt: 1,
         }}
       >
-        NOS CASAMOS
+        ¡NOS CASAMOS!
       </Typography>
       </div>
     </div>

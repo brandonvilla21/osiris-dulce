@@ -62,6 +62,9 @@ const Item = (props) => {
 };
 
 const Itinerary = () => {
+  const handleOnClickPictureUpload = () => {
+    window.open("https://drive.google.com/drive/u/1/folders/1Fktr6Nv0o7My2SktNUyjYGB0NLMwmZ7I", "_blank");
+  }
   return (
     <Grid
       container
@@ -154,7 +157,7 @@ const Itinerary = () => {
         flexDirection="column"
         justifyContent="center"
         alignItems="center"
-        pt={10}
+        pt={9}
         pb={5}
       >
         <img
@@ -176,7 +179,38 @@ const Itinerary = () => {
           pt={1}
           px={2}
         >
-          Riguroso Formal • No niños
+          Riguroso Formal
+        </Typography>
+      </Grid>
+      <Grid
+        item
+        display="flex"
+        flexDirection="column"
+        justifyContent="center"
+        alignItems="center"
+        pb={5}
+      >
+        {/* <img
+          src="https://static.thenounproject.com/png/469396-200.png"
+          alt="Notebook"
+          style={{
+            height: "70px",
+            width: "70px",
+            paddingBottom: "10px",
+          }}
+        /> */}
+        <Typography variant="h5" textAlign="center" fontWeight="bold">
+          NO NIÑOS
+        </Typography>
+        <Typography
+          variant="body1"
+          fontFamily="JakartaSans"
+          textAlign="center"
+          pt={1}
+          px={2}
+        >
+          Por cuestiones de seguridad y de la logística de nuestra boda, esta
+          celebracion es sin niños, agradecemos tu comprencion
         </Typography>
       </Grid>
       <Grid item xs={12} bgcolor="#5A6548" width={"100%"} py={6}>
@@ -198,6 +232,7 @@ const Itinerary = () => {
           </Typography>
           <Button
             variant="outlined"
+            onClick={handleOnClickPictureUpload}
             sx={{
               color: "white",
               borderColor: "white",

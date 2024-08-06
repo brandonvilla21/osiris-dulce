@@ -81,21 +81,28 @@ const Invitation = () => {
       }}
     >
       <Grid item xs={12} sx={{ pt: 2, px: 2 }}>
-        <img
-          style={{ maxWidth: "75%" }}
-          src="/assets/icons/osiris/estas-invitado.png"
-        />
+        <Typography
+          variant="h4"
+          sx={{
+            letterSpacing: "1.5px",
+            fontFamily: "JakartaSans",
+            pt: 0.7,
+            pb: 3,
+          }}
+        >
+          Estas Invitado
+        </Typography>
       </Grid>
       <Grid item xs={12} sx={{ pb: 2, px: 2 }}>
         <Typography
           variant="subtitle1"
           sx={{
             fontFamily: "JakartaSans",
-            marginTop: '-16px',
+            marginTop: "-16px",
           }}
         >
           Tu presencia en nuestra boda haría este día aún más memorable.
-          ¡Esperamos contar contigo!
+          ¡Nos gustaria contar contigo!
         </Typography>
       </Grid>
       <Grid item xs={12}>
