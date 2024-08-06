@@ -90,7 +90,7 @@ const Invitation = () => {
             pb: 3,
           }}
         >
-          Estas Invitado
+          Estás Invitado
         </Typography>
       </Grid>
       <Grid item xs={12} sx={{ pb: 2, px: 2 }}>
@@ -102,7 +102,7 @@ const Invitation = () => {
           }}
         >
           Tu presencia en nuestra boda haría este día aún más memorable.
-          ¡Nos gustaria contar contigo!
+          ¡Nos gustaría contar contigo!
         </Typography>
       </Grid>
       <Grid item xs={12}>

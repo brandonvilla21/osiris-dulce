@@ -160,7 +160,7 @@ const Confirmation = () => {
       >
         <Typography variant="h5" textAlign="center" fontWeight="bold">
           CONFIRMAR
-          <br /> ASITENCIA
+          <br /> ASISTENCIA
         </Typography>
         <Typography
           variant="body2"
@@ -171,7 +171,7 @@ const Confirmation = () => {
           px={2}
           pb={2}
         >
-          Por favor, confirma tu asistencia. ¡Esperemos que estes ahí!
+          Por favor, confirma tu asistencia. ¡Esperemos que estés ahí!
         </Typography>
         <FormConfirmation />
         {/* <Box m={1} minWidth={300}>

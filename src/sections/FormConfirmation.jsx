@@ -42,7 +42,7 @@ const FormConfirmation = () => {
       }
       ${
         formData.sayHello
-          ? `- Este es el siguiente mesnaje que me gustaria dejar a los novios: *${formData.sayHello}*`
+          ? `- Este es el siguiente mesnaje que me gustaría dejar a los novios: *${formData.sayHello}*`
           : ""
       }
       `;
@@ -101,7 +101,7 @@ const FormConfirmation = () => {
           />
 
           <TextField
-            label="¡Felicita a los novios aqui!"
+            label="¡Felicita a los novios aquí!"
             multiline
             name="sayHello"
             value={formData.sayHello}

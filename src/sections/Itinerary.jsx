@@ -213,7 +213,7 @@ const Itinerary = () => {
           px={2}
         >
           Por cuestiones de seguridad y de la logística de nuestra boda, esta
-          celebracion es sin niños, agradecemos tu comprencion
+          celebración es sin niños, agradecemos tu comprensión.
         </Typography>
       </Grid>
       <Grid item xs={12} bgcolor="#5A6548" width={"100%"} py={6}>
