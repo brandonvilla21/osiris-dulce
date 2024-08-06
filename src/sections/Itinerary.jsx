@@ -63,8 +63,11 @@ const Item = (props) => {
 
 const Itinerary = () => {
   const handleOnClickPictureUpload = () => {
-    window.open("https://drive.google.com/drive/u/1/folders/1Fktr6Nv0o7My2SktNUyjYGB0NLMwmZ7I", "_blank");
-  }
+    window.open(
+      "https://drive.google.com/drive/u/1/folders/1Fktr6Nv0o7My2SktNUyjYGB0NLMwmZ7I?q=sharedwith:public%20parent:1Fktr6Nv0o7My2SktNUyjYGB0NLMwmZ7I",
+      "_blank"
+    );
+  };
   return (
     <Grid
       container
@@ -191,7 +194,7 @@ const Itinerary = () => {
         pb={5}
       >
         <img
-          src="https://static.thenounproject.com/png/469396-200.png"
+          src="./assets/icons/no-kids.png"
           alt="Notebook"
           style={{
             height: "70px",
