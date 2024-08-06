@@ -190,7 +190,7 @@ const Itinerary = () => {
         alignItems="center"
         pb={5}
       >
-        {/* <img
+        <img
           src="https://static.thenounproject.com/png/469396-200.png"
           alt="Notebook"
           style={{
@@ -198,7 +198,7 @@ const Itinerary = () => {
             width: "70px",
             paddingBottom: "10px",
           }}
-        /> */}
+        />
         <Typography variant="h5" textAlign="center" fontWeight="bold">
           NO NIÑOS
         </Typography>
