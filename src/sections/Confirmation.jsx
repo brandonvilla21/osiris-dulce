@@ -1,6 +1,7 @@
-import { Box, Button, Divider, Grid, Typography } from "@mui/material";
+import { Box, Button, Collapse, Divider, Grid, Typography } from "@mui/material";
 import { useQuery } from "../hooks/use-query";
 import FormConfirmation from "./FormConfirmation";
+import { useState } from "react";
 
 const hashInvites = {
   42661: 1,
@@ -18,8 +19,10 @@ const hashInvites = {
 const Confirmation = () => {
   const query = useQuery();
   const invites = query.get("invites");
-
-  const confirmationText = `?text=Hola%21%20Confirmo%20mi%20asistencia%20a%20la%20boda%20de%20Russell%20y%20Brandon%20el%2024%20de%20Febrero.%20Mi%20nombre%20es%3A`;
+  const [showData, setShowData] = useState(false);
+  const handleShowData = () => {
+    setShowData(true);
+  };
   return (
     <Grid
       container
@@ -61,6 +64,18 @@ const Confirmation = () => {
           Contaremos con un buzón en la boda en el que podrán depositar un sobre
           con su regalo en efectivo
         </Typography>
+        <Button onClick={handleShowData} variant="outlined" sx={{ mt: 4 }}>
+          Ver datos bancarios
+        </Button>
+        <Collapse in={showData}>
+          {" "}
+          <Typography variant="body1" color="gray" mt={2} textAlign="center">
+            Tarjeta <strong>Banamex</strong>
+            <br />
+            <strong>Dulce María Sánchez Fregoso</strong> <br />
+            Clabe: <strong>002342701806449529</strong>
+          </Typography>
+        </Collapse>
       </Grid>
       <Grid
         item

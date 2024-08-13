@@ -156,11 +156,300 @@ const Itinerary = () => {
       </Grid>
       <Grid
         item
+        xs={12}
+        sx={{
+          textAlign: "center",
+          width: "100%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          fontWeight: "bold",
+          pt: 5,
+        }}
+      >
+        <img
+          src={"./assets/icons/coctel.png"}
+          alt={"Coctel"}
+          style={{
+            height: "100px",
+            width: "100px",
+          }}
+        />
+        <Typography variant="h5" fontWeight="bold">
+          COCTEL <br />& SESIÓN DE FOTOS
+        </Typography>
+        <Grid item xs={12} style={{ width: "100%" }}>
+          <Grid alignItems="center" container style={{ padding: "1rem 0" }}>
+            <Grid item xs={5} display="flex" justifyContent="flex-end">
+              <Typography variant="h5" fontFamily="JakartaSans">
+                23 NOV
+              </Typography>
+            </Grid>
+            <Grid item xs={2} display="flex" justifyContent="center">
+              <div
+                style={{
+                  border: "1px solid #7b7d7b",
+                  width: "0px",
+                  height: "4rem",
+                }}
+              />
+            </Grid>
+            <Grid item xs={5} display="flex" justifyContent="flex-start">
+              <Typography variant="h5" fontFamily="JakartaSans">
+                06:00 pm
+              </Typography>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Grid>
+      <Grid
+        item
+        xs={12}
+        sx={{
+          textAlign: "center",
+          width: "100%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          fontWeight: "bold",
+        }}
+      >
+        <img
+          src={"./assets/icons/wedding-couple.png"}
+          alt={"Novios"}
+          style={{
+            height: "100px",
+            width: "100px",
+          }}
+        />
+        <Typography variant="h5" fontWeight="bold">
+          ENTRADA DE NOVIOS
+        </Typography>
+        <Grid item xs={12} style={{ width: "100%" }}>
+          <Grid alignItems="center" container style={{ padding: "1rem 0" }}>
+            <Grid item xs={5} display="flex" justifyContent="flex-end">
+              <Typography variant="h5" fontFamily="JakartaSans">
+                23 NOV
+              </Typography>
+            </Grid>
+            <Grid item xs={2} display="flex" justifyContent="center">
+              <div
+                style={{
+                  border: "1px solid #7b7d7b",
+                  width: "0px",
+                  height: "4rem",
+                }}
+              />
+            </Grid>
+            <Grid item xs={5} display="flex" justifyContent="flex-start">
+              <Typography variant="h5" fontFamily="JakartaSans">
+                07:00 pm
+              </Typography>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Grid>
+      <Grid
+        item
+        xs={12}
+        sx={{
+          textAlign: "center",
+          width: "100%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          fontWeight: "bold",
+        }}
+      >
+        <img
+          src={"./assets/icons/dinner.png"}
+          alt={"Cena"}
+          style={{
+            height: "100px",
+            width: "100px",
+          }}
+        />
+        <Typography variant="h5" fontWeight="bold">
+          CENA
+        </Typography>
+        <Grid item xs={12} style={{ width: "100%" }}>
+          <Grid alignItems="center" container style={{ padding: "1rem 0" }}>
+            <Grid item xs={5} display="flex" justifyContent="flex-end">
+              <Typography variant="h5" fontFamily="JakartaSans">
+                23 NOV
+              </Typography>
+            </Grid>
+            <Grid item xs={2} display="flex" justifyContent="center">
+              <div
+                style={{
+                  border: "1px solid #7b7d7b",
+                  width: "0px",
+                  height: "4rem",
+                }}
+              />
+            </Grid>
+            <Grid item xs={5} display="flex" justifyContent="flex-start">
+              <Typography variant="h5" fontFamily="JakartaSans">
+                08:30 pm
+              </Typography>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Grid>
+      <Grid
+        item
+        xs={12}
+        sx={{
+          textAlign: "center",
+          width: "100%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          fontWeight: "bold",
+        }}
+      >
+        <img
+          src={"./assets/icons/vals.png"}
+          alt={"Vals"}
+          style={{
+            height: "100px",
+            width: "100px",
+          }}
+        />
+        <Typography variant="h5" fontWeight="bold">
+          VALS DE LOS NOVIOS
+        </Typography>
+        <Grid item xs={12} style={{ width: "100%" }}>
+          <Grid alignItems="center" container style={{ padding: "1rem 0" }}>
+            <Grid item xs={5} display="flex" justifyContent="flex-end">
+              <Typography variant="h5" fontFamily="JakartaSans">
+                23 NOV
+              </Typography>
+            </Grid>
+            <Grid item xs={2} display="flex" justifyContent="center">
+              <div
+                style={{
+                  border: "1px solid #7b7d7b",
+                  width: "0px",
+                  height: "4rem",
+                }}
+              />
+            </Grid>
+            <Grid item xs={5} display="flex" justifyContent="flex-start">
+              <Typography variant="h5" fontFamily="JakartaSans">
+                09:30 pm
+              </Typography>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Grid>
+      <Grid
+        item
+        xs={12}
+        sx={{
+          textAlign: "center",
+          width: "100%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          fontWeight: "bold",
+        }}
+      >
+        <img
+          src={"./assets/icons/dance.png"}
+          alt={"Baile"}
+          style={{
+            height: "100px",
+            width: "100px",
+          }}
+        />
+        <Typography variant="h5" fontWeight="bold">
+          ABRIMOS PISTA
+        </Typography>
+        <Grid item xs={12} style={{ width: "100%" }}>
+          <Grid alignItems="center" container style={{ padding: "1rem 0" }}>
+            <Grid item xs={5} display="flex" justifyContent="flex-end">
+              <Typography variant="h5" fontFamily="JakartaSans">
+                23 NOV
+              </Typography>
+            </Grid>
+            <Grid item xs={2} display="flex" justifyContent="center">
+              <div
+                style={{
+                  border: "1px solid #7b7d7b",
+                  width: "0px",
+                  height: "4rem",
+                }}
+              />
+            </Grid>
+            <Grid item xs={5} display="flex" justifyContent="flex-start">
+              <Typography variant="h5" fontFamily="JakartaSans">
+                10:00 pm
+              </Typography>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Grid>
+      <Grid
+        item
+        xs={12}
+        sx={{
+          textAlign: "center",
+          width: "100%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          fontWeight: "bold",
+        }}
+      >
+        <img
+          src={"./assets/icons/end.png"}
+          alt={"Fin"}
+          style={{
+            height: "100px",
+            width: "100px",
+          }}
+        />
+        <Typography variant="h5" fontWeight="bold">
+          FIN DE LA CELEBRACIÓN
+        </Typography>
+        <Grid item xs={12} style={{ width: "100%" }}>
+          <Grid alignItems="center" container style={{ padding: "1rem 0" }}>
+            <Grid item xs={5} display="flex" justifyContent="flex-end">
+              <Typography variant="h5" fontFamily="JakartaSans">
+                24 NOV
+              </Typography>
+            </Grid>
+            <Grid item xs={2} display="flex" justifyContent="center">
+              <div
+                style={{
+                  border: "1px solid #7b7d7b",
+                  width: "0px",
+                  height: "4rem",
+                }}
+              />
+            </Grid>
+            <Grid item xs={5} display="flex" justifyContent="flex-start">
+              <Typography variant="h5" fontFamily="JakartaSans">
+                03:00 am
+              </Typography>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Grid>
+      <Grid
+        item
         display="flex"
         flexDirection="column"
         justifyContent="center"
         alignItems="center"
-        pt={9}
+        pt={7}
         pb={5}
       >
         <img
@@ -182,7 +471,20 @@ const Itinerary = () => {
           pt={1}
           px={2}
         >
-          Riguroso Formal
+          Etiqueta Rigurosa
+        </Typography>
+        <Typography
+          variant="body2"
+          fontFamily="JakartaSans"
+          textAlign="center"
+          pt={1}
+          px={2}
+        >
+          Para mantener la armonía del evento, les pedimos amablemente a las
+          mujeres, eviten vestir de blanco o colores marfil, el lugar es en
+          jardín, tómalo en cuenta para el tipo de tacón que lleves. A los
+          hombres, les pedimos que opten por trajes en tonos oscuros, como
+          sugerencia. ¡Agradecemos mucho su atención y comprensión!
         </Typography>
       </Grid>
       <Grid
