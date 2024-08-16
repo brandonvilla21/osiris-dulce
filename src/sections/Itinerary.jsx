@@ -26,7 +26,7 @@ const Item = (props) => {
           width: "100px",
         }}
       />
-      <Typography variant="h5">{props.title}</Typography>
+      <Typography variant="h6">{props.title}</Typography>
       <Typography
         variant="body1"
         fontFamily="JakartaSans"
@@ -37,7 +37,7 @@ const Item = (props) => {
       <Grid item xs={12} style={{ width: "100%" }}>
         <Grid alignItems="center" container style={{ padding: "1rem 0" }}>
           <Grid item xs={5} display="flex" justifyContent="flex-end">
-            <Typography variant="h5" fontFamily="JakartaSans">
+            <Typography variant="h6" fontFamily="JakartaSans">
               {props.date}
             </Typography>
           </Grid>
@@ -51,7 +51,7 @@ const Item = (props) => {
             />
           </Grid>
           <Grid item xs={5} display="flex" justifyContent="flex-start">
-            <Typography variant="h5" fontFamily="JakartaSans">
+            <Typography variant="h6" fontFamily="JakartaSans">
               {props.hour}
             </Typography>
           </Grid>
@@ -96,11 +96,11 @@ const Itinerary = () => {
           src={"./assets/icons/osiris/rings.gif"}
           alt={"Anillos de compromiso"}
           style={{
-            height: "100px",
-            width: "100px",
+            height: "80px",
+            width: "80px",
           }}
         />
-        <Typography variant="h5" fontWeight="bold">
+        <Typography variant="h6" fontWeight="bold">
           RECEPCIÓN <br />& CEREMONIA
         </Typography>
         <Typography
@@ -113,7 +113,7 @@ const Itinerary = () => {
         <Grid item xs={12} style={{ width: "100%" }}>
           <Grid alignItems="center" container style={{ padding: "1rem 0" }}>
             <Grid item xs={5} display="flex" justifyContent="flex-end">
-              <Typography variant="h5" fontFamily="JakartaSans">
+              <Typography variant="h6" fontFamily="JakartaSans">
                 23 NOV
               </Typography>
             </Grid>
@@ -127,7 +127,7 @@ const Itinerary = () => {
               />
             </Grid>
             <Grid item xs={5} display="flex" justifyContent="flex-start">
-              <Typography variant="h5" fontFamily="JakartaSans">
+              <Typography variant="h6" fontFamily="JakartaSans">
                 04:30 pm
               </Typography>
             </Grid>
@@ -172,17 +172,17 @@ const Itinerary = () => {
           src={"./assets/icons/coctel.png"}
           alt={"Coctel"}
           style={{
-            height: "100px",
-            width: "100px",
+            height: "80px",
+            width: "80px",
           }}
         />
-        <Typography variant="h5" fontWeight="bold">
+        <Typography variant="h6" fontWeight="bold">
           COCTEL <br />& SESIÓN DE FOTOS
         </Typography>
         <Grid item xs={12} style={{ width: "100%" }}>
           <Grid alignItems="center" container style={{ padding: "1rem 0" }}>
             <Grid item xs={5} display="flex" justifyContent="flex-end">
-              <Typography variant="h5" fontFamily="JakartaSans">
+              <Typography variant="h6" fontFamily="JakartaSans">
                 23 NOV
               </Typography>
             </Grid>
@@ -196,7 +196,7 @@ const Itinerary = () => {
               />
             </Grid>
             <Grid item xs={5} display="flex" justifyContent="flex-start">
-              <Typography variant="h5" fontFamily="JakartaSans">
+              <Typography variant="h6" fontFamily="JakartaSans">
                 06:00 pm
               </Typography>
             </Grid>
@@ -220,17 +220,17 @@ const Itinerary = () => {
           src={"./assets/icons/wedding-couple.png"}
           alt={"Novios"}
           style={{
-            height: "100px",
-            width: "100px",
+            height: "80px",
+            width: "80px",
           }}
         />
-        <Typography variant="h5" fontWeight="bold">
+        <Typography variant="h6" fontWeight="bold">
           ENTRADA DE NOVIOS
         </Typography>
         <Grid item xs={12} style={{ width: "100%" }}>
           <Grid alignItems="center" container style={{ padding: "1rem 0" }}>
             <Grid item xs={5} display="flex" justifyContent="flex-end">
-              <Typography variant="h5" fontFamily="JakartaSans">
+              <Typography variant="h6" fontFamily="JakartaSans">
                 23 NOV
               </Typography>
             </Grid>
@@ -244,7 +244,7 @@ const Itinerary = () => {
               />
             </Grid>
             <Grid item xs={5} display="flex" justifyContent="flex-start">
-              <Typography variant="h5" fontFamily="JakartaSans">
+              <Typography variant="h6" fontFamily="JakartaSans">
                 07:00 pm
               </Typography>
             </Grid>
@@ -268,17 +268,17 @@ const Itinerary = () => {
           src={"./assets/icons/dinner.png"}
           alt={"Cena"}
           style={{
-            height: "100px",
-            width: "100px",
+            height: "80px",
+            width: "80px",
           }}
         />
-        <Typography variant="h5" fontWeight="bold">
+        <Typography variant="h6" fontWeight="bold">
           CENA
         </Typography>
         <Grid item xs={12} style={{ width: "100%" }}>
           <Grid alignItems="center" container style={{ padding: "1rem 0" }}>
             <Grid item xs={5} display="flex" justifyContent="flex-end">
-              <Typography variant="h5" fontFamily="JakartaSans">
+              <Typography variant="h6" fontFamily="JakartaSans">
                 23 NOV
               </Typography>
             </Grid>
@@ -292,7 +292,7 @@ const Itinerary = () => {
               />
             </Grid>
             <Grid item xs={5} display="flex" justifyContent="flex-start">
-              <Typography variant="h5" fontFamily="JakartaSans">
+              <Typography variant="h6" fontFamily="JakartaSans">
                 08:30 pm
               </Typography>
             </Grid>
@@ -316,17 +316,17 @@ const Itinerary = () => {
           src={"./assets/icons/vals.png"}
           alt={"Vals"}
           style={{
-            height: "100px",
-            width: "100px",
+            height: "80px",
+            width: "80px",
           }}
         />
-        <Typography variant="h5" fontWeight="bold">
+        <Typography variant="h6" fontWeight="bold">
           VALS DE LOS NOVIOS
         </Typography>
         <Grid item xs={12} style={{ width: "100%" }}>
           <Grid alignItems="center" container style={{ padding: "1rem 0" }}>
             <Grid item xs={5} display="flex" justifyContent="flex-end">
-              <Typography variant="h5" fontFamily="JakartaSans">
+              <Typography variant="h6" fontFamily="JakartaSans">
                 23 NOV
               </Typography>
             </Grid>
@@ -340,7 +340,7 @@ const Itinerary = () => {
               />
             </Grid>
             <Grid item xs={5} display="flex" justifyContent="flex-start">
-              <Typography variant="h5" fontFamily="JakartaSans">
+              <Typography variant="h6" fontFamily="JakartaSans">
                 09:30 pm
               </Typography>
             </Grid>
@@ -364,17 +364,17 @@ const Itinerary = () => {
           src={"./assets/icons/dance.png"}
           alt={"Baile"}
           style={{
-            height: "100px",
-            width: "100px",
+            height: "80px",
+            width: "80px",
           }}
         />
-        <Typography variant="h5" fontWeight="bold">
+        <Typography variant="h6" fontWeight="bold">
           ABRIMOS PISTA
         </Typography>
         <Grid item xs={12} style={{ width: "100%" }}>
           <Grid alignItems="center" container style={{ padding: "1rem 0" }}>
             <Grid item xs={5} display="flex" justifyContent="flex-end">
-              <Typography variant="h5" fontFamily="JakartaSans">
+              <Typography variant="h6" fontFamily="JakartaSans">
                 23 NOV
               </Typography>
             </Grid>
@@ -388,7 +388,7 @@ const Itinerary = () => {
               />
             </Grid>
             <Grid item xs={5} display="flex" justifyContent="flex-start">
-              <Typography variant="h5" fontFamily="JakartaSans">
+              <Typography variant="h6" fontFamily="JakartaSans">
                 10:00 pm
               </Typography>
             </Grid>
@@ -412,17 +412,17 @@ const Itinerary = () => {
           src={"./assets/icons/end.png"}
           alt={"Fin"}
           style={{
-            height: "100px",
-            width: "100px",
+            height: "80px",
+            width: "80px",
           }}
         />
-        <Typography variant="h5" fontWeight="bold">
+        <Typography variant="h6" fontWeight="bold">
           FIN DE LA CELEBRACIÓN
         </Typography>
         <Grid item xs={12} style={{ width: "100%" }}>
           <Grid alignItems="center" container style={{ padding: "1rem 0" }}>
             <Grid item xs={5} display="flex" justifyContent="flex-end">
-              <Typography variant="h5" fontFamily="JakartaSans">
+              <Typography variant="h6" fontFamily="JakartaSans">
                 24 NOV
               </Typography>
             </Grid>
@@ -436,7 +436,7 @@ const Itinerary = () => {
               />
             </Grid>
             <Grid item xs={5} display="flex" justifyContent="flex-start">
-              <Typography variant="h5" fontFamily="JakartaSans">
+              <Typography variant="h6" fontFamily="JakartaSans">
                 03:00 am
               </Typography>
             </Grid>
@@ -461,7 +461,7 @@ const Itinerary = () => {
             paddingBottom: "10px",
           }}
         />
-        <Typography variant="h5" textAlign="center" fontWeight="bold">
+        <Typography variant="h6" textAlign="center" fontWeight="bold">
           DRESS CODE
         </Typography>
         <Typography
@@ -474,7 +474,7 @@ const Itinerary = () => {
           Etiqueta Rigurosa
         </Typography>
         <Typography
-          variant="body2"
+          variant="body1"
           fontFamily="JakartaSans"
           textAlign="center"
           pt={1}
@@ -504,7 +504,7 @@ const Itinerary = () => {
             paddingBottom: "10px",
           }}
         />
-        <Typography variant="h5" textAlign="center" fontWeight="bold">
+        <Typography variant="h6" textAlign="center" fontWeight="bold">
           NO NIÑOS
         </Typography>
         <Typography
@@ -564,8 +564,8 @@ const Itinerary = () => {
           src="./assets/icons/wedding-location.png"
           alt="Wedding location"
           style={{
-            height: "100px",
-            width: "100px",
+            height: "80px",
+            width: "80px",
             paddingBottom: "2rem",
           }}
         />
