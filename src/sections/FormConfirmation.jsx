@@ -29,11 +29,11 @@ const FormConfirmation = () => {
     e.preventDefault();
     let message = "";
     if (formData.yesNo === "No") {
-      message = `¡Hola!, Mi nombre es *${formData.name}*. Este mensaje es para informar que no podré asistr a la boda de Ducle y Osiris`;
+      message = `¡Hola!, Mi nombre es *${formData.name}*. Este mensaje es para informar que no podré asistr a la boda de Dulce y Osiris`;
     } else if (formData.yesNo === "Yes") {
       message = `¡Hola!, Mi nombre es *${
         formData.name
-      }*. Este mensaje es para confirmar mi asistencia a la boda de Ducle y Osiris
+      }*. Este mensaje es para confirmar mi asistencia a la boda de Dulce y Osiris
       - Intolerancia o alergias alimentarias: ${
         formData.food ? `*${formData.food}*` : "*Ninguna*"
       }.
@@ -42,7 +42,7 @@ const FormConfirmation = () => {
       }
       ${
         formData.sayHello
-          ? `- Este es el siguiente mesnaje que me gustaría dejar a los novios: *${formData.sayHello}*`
+          ? `- Este es el siguiente mensaje que me gustaría dejar a los novios: *${formData.sayHello}*`
           : ""
       }
       `;
