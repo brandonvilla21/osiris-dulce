@@ -136,7 +136,7 @@ const Itinerary = () => {
         <Grid item xs={12}>
           <Button
             LinkComponent="a"
-            href="https://maps.app.goo.gl/zSLYuQohRjsfKHF77"
+            href="https://maps.app.goo.gl/LALXujR39X2MDD748?g_st=iw"
             target="_blank"
             rel="noopener noreferrer"
             variant="contained"
