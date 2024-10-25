@@ -165,7 +165,7 @@ const Confirmation = () => {
           </a>
         </Typography>
       </Grid>
-      <Grid
+      {/* <Grid
         item
         display="flex"
         flexDirection="column"
@@ -189,44 +189,9 @@ const Confirmation = () => {
           Por favor, confirma tu asistencia. ¡Esperemos que estés ahí!
         </Typography>
         <FormConfirmation />
-        {/* <Box m={1} minWidth={300}>
-          <Button
-            fullWidth
-            href={"https://wa.me/+523327988685" + confirmationText}
-            target="_blank"
-            variant="outlined"
-            color="formal"
-          >
-            Confirmar con la novia
-          </Button>
-        </Box>
-        <Box m={1} minWidth={300}>
-          <Button
-            fullWidth
-            href={"https://wa.me/+523411361316" + confirmationText}
-            target="_blank"
-            rel="noreferrer"
-            variant="outlined"
-            color="formal"
-          >
-            Confirmar con el novio
-          </Button>
-        </Box>
-        <Box m={1} minWidth={300}>
-          <Button
-            fullWidth
-            href={"https://wa.me/+523331727520" + confirmationText}
-            target="_blank"
-            rel="noreferrer"
-            variant="outlined"
-            color="formal"
-          >
-            Confirmar con Sara
-          </Button>
-        </Box> */}
-      </Grid>
+      </Grid> */}
 
-      <Grid item xs={12} sx={{ pt: 0, pb: 0, textAlign: "center" }}>
+      <Grid item xs={12} sx={{ pt: 5, pb: 0, textAlign: "center" }}>
         <img
           style={{ maxWidth: "75%" }}
           src="/assets/icons/osiris/te-esperamos.png"
@@ -238,30 +203,6 @@ const Confirmation = () => {
           src="/assets/icons/osiris/osiris-y-dulce-blanco.png"
         />
       </Grid>
-      {/* <Grid
-        item
-        display="flex"
-        flexDirection="column"
-        justifyContent="center"
-        alignItems="center"
-        pt={4}
-        sx={{
-          backgroundColor: "#D5F5E6",
-          width: "100%",
-        }}
-      >
-        <Typography variant="h5" textAlign="center">
-          TE ESPERAMOS
-        </Typography>
-        <img
-          src="./assets/r-b-logo.png"
-          alt="Notebook"
-          style={{
-            height: "350px",
-            width: "350px",
-          }}
-        />
-      </Grid> */}
     </Grid>
   );
 };
